@@ -27,11 +27,11 @@ def assign_rooms(speaker)
 end
 
 
-def printer(speaker)
-    batch_badge_creator(speaker).each do |element|
+def printer(list)
+    batch_badge_creator(list).each do |element|
       puts element
     end
-    assign_rooms(speaker).each do |element|
+    assign_rooms(list).each do |element|
       puts element
     end
 end
